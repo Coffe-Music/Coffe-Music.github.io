@@ -9,11 +9,16 @@
 
 
 <script>
+
 let v = new Audio(String(Math.floor(Math.random() * 659) + 100)+".mp3");
 v.controls = true;
 v.autoplay = true; 
-var s=String(Math.floor(Math.random() * 942) + 988)+".jpg";
-<img src="988.jpg" alt="">
+
+var img = new Image();
+img.src = String(Math.floor(Math.random() * 942) + 988)+".jpg";
+img.width = 600;
+img.height = 600;
+img.name = "_";	
 </script>
 
 
